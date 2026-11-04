@@ -52,3 +52,9 @@ header{border-bottom-color:#dcd8d0}.logo span{color:var(--pencil-red)}
 @media(max-width:767px){.logo{font-size:18px;max-width:220px}}
 
 .picture .product-photo{width:100%;height:100%;object-fit:contain;background:#fff;padding:38px 12px 12px}
+
+/* Логотип Дарёнок — авторский леттеринг */
+.logo{display:inline-flex;align-items:center;flex-shrink:0;max-width:none;line-height:1}
+.logo img{display:block;width:220px;height:auto}
+footer .logo img{width:185px}
+@media(max-width:767px){.logo img{width:165px}footer .logo img{width:155px}header{gap:14px}header>a:last-child{font-size:11px}}
