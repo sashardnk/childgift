@@ -66,3 +66,6 @@ footer .logo img{width:185px}
 /* Временный логотип Коробка */
 .logo img{width:220px}footer .logo img{width:185px}
 @media(max-width:767px){.logo img{width:160px}footer .logo img{width:155px}}
+
+.mobile-tagline{display:none}
+@media(max-width:767px){.header-catalog-link{display:none}.mobile-tagline{display:block;max-width:165px;font-size:11px;line-height:1.45;text-align:right;color:var(--ink)}header{align-items:center}.logo{flex-shrink:1}.logo img{max-width:100%}}
